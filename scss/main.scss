@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 1500px;
+  margin: 0 auto;
+
+  padding: 10vh;
+  border-radius: 15px;
+  border: 3px solid #000;
+
+  h1 {
+    text-align: center;
+    font-size: 38px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      width: 150px;
+    }
+  }
+}
+
+.title {
+  font-family: "DynaPuff", cursive;
+  font-size: 22px;
+}
+
+span {
+  font-family: "Arvo", serif;
+  font-size: 20px;
+}
+
+.product {
+  width: 225px;
+
+  &__text {
+    font-family: "Arvo", serif;
+    font-size: 20px;
+  }
+}
+
+.size {
+  margin-top: 10px;
+  font-size: 25px;
+
+  display: flex;
+
+  &__first {
+    padding: 40px;
+
+    display: inline-block;
+
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+}
+
+#select-option {
+  width: 40%;
+}
+
+.circle {
+  display: inline-block;
+  padding: 60px 55px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.title-product {
+  font-family: "Arvo", serif;
+  font-size: 25px;
+}
+
+.btn {
+  font-family: "Arvo", serif;
+  font-size: 15px;
+}
